@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+   <h3>Novel Sevices Login</h3> 
+   <form>
+    Username: <input type="text" name="username"><br><br>
+    Password: <input type="password" name="password"><br><br>
+    City of Employment: <input type="text" name="city"><br><br>
+    Web Server:
+    <select name="sever">
+        <option>-Choose a server-</option>
+        <option value="server1">Server1</option>
+        <option value="server2">Server2</option>
+    </select>
+    <br><br>
+    Please specify your role:<br>
+    <input type="radio" name="role" value="admin">Admin<br>
+    <input type="radio" name="role" value="enginerr">Engineer<br>
+    <input type="radio" name="role" value="manager">Manager<br>
+    <input type="radio" name="role" value="guest">Guest<br><br>
+    Single Sign-on to the following:<br>
+    <input type="checkbox" name="sso" value="mail">Mail<br>
+    <input type="checkbox" name="sso" value="payroll">payroll<br>
+    <input type="checkbox" name="sso" value="self-service">Self-service<br><br>
+    
+    <input type="submit" value="Login">
+    <input type="reset" value="Reset">
+   </form>
+</body>
+</html>
